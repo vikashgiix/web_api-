@@ -5,6 +5,7 @@ const cardBody = document.querySelector('.card-body');
 const timeImage = document.querySelector('.card-top img');
 const cardInfo = document.querySelector('.back-card');
 const port = process.env.PORT || 8000;
+
 const spitOutCelcius = (kelvin) => {
     celcius = Math.round(kelvin - 273.15);
     return celcius;
